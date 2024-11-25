@@ -1,0 +1,61 @@
+ .box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    top: 100px;
+    left: 50px;
+    position: absolute;
+    top: 10px;
+} 
+ {
+    padding: 2;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ .title{
+    text-align: center;
+    margin-top: 10px;
+ }
+ .title p{
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: bold;
+
+ }
+ .title p:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+
+ }
+ .card{
+    width: 30%;
+    text-align: center;
+    border: px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 100px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ }
+ .card:hover{
+    border:solid;
+   
+ }
+ .card img{
+    width: 60%
+ }
+ .content{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+ }
+ a{
+    text-decoration: none;
+    color:black;
+ }
+ .card_section{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+ } 
